@@ -11,7 +11,8 @@ Project ini terdiri dari 2 sub-project :
 
 Untuk menjalankan projectnya :
 
-1. Siapkan database MySQL / Oracle
+1. Siapkan database Oracle, import Oracle.sql ke database dengan username:kingbaraja (default)
+   Apabila menggunakan username lain Edit file META-INF\persistence.xml yang ada di folder web\src\main\resources 
 
 2. Jalankan maven clean install -DskipTests di top level folder
 
