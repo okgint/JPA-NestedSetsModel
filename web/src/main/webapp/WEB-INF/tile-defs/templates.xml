@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+        <definition name="defaultTemplate" template="/WEB-INF/tiles/template.jsp">
+                <put-attribute name="title" value="Tiles Products"/>
+                <put-attribute name="nav" value="/WEB-INF/tiles/nav.jsp"/>
+        </definition>
+
+        <definition name="defaultList" template="/WEB-INF/tiles/list.jsp">
+                <put-attribute name="title" value="Tiles tutorial homepage" />
+                <put-attribute name="nav" value="/WEB-INF/tiles/nav.jsp"/>
+        </definition>
+
+        <definition name="product" extends="defaultTemplate">
+                <put-attribute name="title" value="Product Form"/>
+                <put-attribute name="body" value="/WEB-INF/jsp/product.jsp"/>
+        </definition>
+
+        <definition name="productList" extends="defaultList">
+                <put-attribute name="title" value="Product Form"/>
+                <put-attribute name="body" value="/WEB-INF/jsp/productList.jsp"/>
+                <put-attribute name="scriptFile" value="/js/productList.js" cascade="true"></put-attribute>
+        </definition>
+
+</tiles-definitions>
