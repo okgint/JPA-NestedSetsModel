@@ -5,7 +5,7 @@
 
 Project ini terdiri dari 2 sub-project :
 * JpaNestedSet : berisi library untuk nested sets model
-* spring-kingbaraja : berisi @Controller , HTML, javascript dsb
+* web : berisi @Controller , HTML, javascript dsb
 
 ## Build dan Run ##
 
