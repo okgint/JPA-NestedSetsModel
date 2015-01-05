@@ -13,11 +13,7 @@ Untuk menjalankan projectnya :
 
 1. Siapkan database MySQL / Oracle
 
-nama db : kingbaraja
-username : root
-password : 
-
-2.Jalankan maven clean install -DskipTests di top level folder
+2. Jalankan maven clean install -DskipTests di top level folder
 
 3. Masuk ke folder web, kemudian jalankan mvn jetty:run
 
